@@ -6,7 +6,6 @@ public class ADCopy {
     public static void main(String[] args) {
         FileInputStream fIn;
         FileOutputStream fOut;
-
         try {
             fIn = new FileInputStream("./TextFiles/first.txt");
             fOut = new FileOutputStream(new File("./TextFiles/second.txt"), true);
@@ -19,6 +18,5 @@ public class ADCopy {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 }
